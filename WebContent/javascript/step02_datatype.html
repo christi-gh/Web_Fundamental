@@ -1,0 +1,64 @@
+<!-- step02_datatype.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Data Type</title>
+    <script>
+        // 1. Number Type
+        let num1 = 10;
+        let num2 = 20.1;
+        
+        console.log(typeof num1);
+        console.log(typeof num2);
+
+        // 2. String Type
+        let myName = "christi";
+        let yourName = 'prince';
+
+        console.log(typeof myName);
+        console.log(typeof yourName);
+
+        // 3. Boolean Type
+        let isRun = true;
+        let isGreater = 10 >5;
+
+        console.log(typeof isRun);
+        console.log(typeof isGreater);
+
+        let a1 = 10;
+        let a2 = "10";
+
+        console.log(a1==a2); // == 값 비교
+        console.log(a1===a2); // === 값 비교 & 자료형 비교
+
+        // 4. Undefined Type
+
+        let a3;
+        console.log(typeof a3);
+
+        // 5. Array Type(object)
+
+        const names = ['christi', 'prince', 'lily'];
+
+        console.log(typeof names);
+        
+        // 6. (plain) Object Type > javascript 에서 배열은 이게 진짜 
+
+        const obj = {num1 : 1, name : 'christi', id : "christi12"};
+
+        console.log(typeof obj);
+
+        // 7. Function Type
+
+        const f = function() {
+
+        }
+        console.log(typeof f);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

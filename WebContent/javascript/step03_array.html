@@ -1,0 +1,32 @@
+<!-- step03_array.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+    <script>
+        // 1. 배열 생성 및 할당
+        const nums = [1,2,3,4];
+        const names = ['gildong', 'cheolsu','younghee'];
+        // javascript array 는 모든 자료형을 할당할 수 있다.
+        const randoms = [1,'gildong',false];
+        console.log(nums.length);
+        nums.push(5); // add to array - push to last place of array
+        nums[99] = 100; // if you knew the index, use it.
+
+        let numsToString = nums.join('');
+        console.log(numsToString);
+        
+        console.log(nums.length);
+        for(let i=0; i<nums.length; i++) {
+            console.log(nums[i]);
+        } 
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
