@@ -15,7 +15,7 @@
         nums.push(5); // add to array - push to last place of array
         nums[99] = 100; // if you knew the index, use it.
 
-        let numsToString = nums.join('');
+        let numsToString = nums.join(''); // all of elements change to string
         console.log(numsToString);
         
         console.log(nums.length);
@@ -23,6 +23,9 @@
             console.log(nums[i]);
         } 
 
+        for(let value of nums) {
+            console.log(value);
+        }
 
     </script>
 </head>
