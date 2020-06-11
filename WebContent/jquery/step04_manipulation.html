@@ -1,0 +1,55 @@
+<!--step04_manipulation.html-->
+
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+		$(function(){
+			
+			//$('p').prepend('<strong> Hi </strong>');
+			//$('<strong> Hi </strong>').prependTo('p');
+
+			//$('p').append('<strong> Hi </strong>');
+			//$('<strong> Hi </strong>').appendTo('p');
+
+			//$('p').after('<strong> Hi </strong>');
+			//$('p').before('<strong> Hi </strong>');
+
+			//$('p').text('<strong>제이쿼리</strong>'); // <strong> 이 텍스트로 들어감
+			//$('p').html('<strong>제이쿼리</strong>'); // <strong> 태그 인식됨
+			
+			//let msg1 = $('p').text();
+			//let msg2 = $('p').html();
+			//console.log(msg1);
+			//console.log(msg2);
+
+			//$('p').wrap('<div/>');
+			
+			//$('p').remove(); //delete
+			//$('p').detach(); //delete
+			$('#aa').empty(); // element는 남고 내용 삭제
+
+		});
+    </script>
+	<style>
+		div {
+			border : 1px solid blue;
+		}
+		p{
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body>
+	
+	<p id = "aa">
+		<div>
+			<div>M</div>
+		</div>
+	</p>
+
+</body>
+</html>
